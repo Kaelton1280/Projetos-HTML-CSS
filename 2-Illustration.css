@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-content {
+    display: inline-block;
+    width: 60%;
+    margin-top: 20%;
+    padding-left: 136px;
+}
+
+.illustration {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+}
+.illustration img {
+    position: relative;
+    top: 25%;
+    right: 140px;
+}
+
+h1 {
+    color: #5d5d7d;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 70px;
+    width: 368px;
+}
+
+p {
+    color: #5d5d7d;
+    opacity: 0.6;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    margin: 15px 0px;
+    width: 540px;
+}
+
+button {
+    color: #ffffff;
+    background: #9499ea;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.1);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 150px;
+    height: 51px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.7;
+}
+button:active {
+    opacity: 0.3;
+}
+
+a {
+    margin-right: 41px;
+    color: #5d5d7d;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 41px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+a:nth-child(2) {
+    opacity: 0.4;
+
+}
+
+a:hover {
+    opacity: 0.4;
+
+}
+
+a:active {
+    opacity: 0.8;
+}
+
+header {
+    margin: 24px 57px;
+}
+
+@media screen and (max-width: 900px) {
+    .main-content {
+        width: 100%;
+        height: 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .illustration {
+        display: block;
+        position: static;
+        width: 100%;
+        height: auto;
+        padding: 40px;
+    }
+
+    .illustration img {
+        position: static;
+        max-width: 95%;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0 50px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        width: auto;
+        margin: 15px 40px;
+        text-align: center;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+    }
+    
+}
+
+/* 
+ Para eu colocar o button no meio da tela eu preciso colocar o display block e o margin: 0 auto; 
+ um atalho para economizar código.
+ max-width: 95% é para que a imagem não fique muito grande no celular.*/
