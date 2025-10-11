@@ -22,6 +22,6 @@ Uma landing page moderna e responsiva feita com HTML e CSS puro, perfeita para q
 <h3>👀 Preview</h3>
 
 <p align="center">
-  <img src="./img/img-notbook.png" width="500" alt="notebook preview">
-  <img src="./img/img-celular..png" width="500" alt="celular preview">
+  <img src="./img/img-notbook.png" width="350" alt="notebook preview">
+  <img src="./img/img-celular..png" width="200" alt="celular preview">
 </p>
