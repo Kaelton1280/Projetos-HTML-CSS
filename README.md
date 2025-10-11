@@ -18,3 +18,10 @@ Uma landing page moderna e responsiva feita com HTML e CSS puro, perfeita para q
   <li>📰 **Conteúdo Informativo:** Seções sobre produtos, empresa e blog.</li>
   <li>🖼️ **Imagem Ilustrativa:** Destaque visual para sua marca.</li>
 </ul>
+<br>
+<h3>👀 Preview</h3>
+
+<p align="center">
+  <img src="./img/img-notbook.png" width="500" alt="notebook preview">
+  <img src="./img/img-celular..png" width="500" alt="celular preview">
+</p>
